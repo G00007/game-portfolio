@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6600, #ff3300);
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            padding: 50px;
+        }
+        .game-card {
+            background: #242424;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
+            transition: transform 0.3s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .game-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 18px;
+            background: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .game-card a:hover {
+            background: #e65c00;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #1a1a1a;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .trailer {
+            margin: 40px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        .newsletter {
+            margin: 40px auto;
+            width: 80%;
+            max-width: 400px;
+            background: #242424;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .newsletter input, .newsletter button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .newsletter button {
+            background: #ff6600;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .newsletter button:hover {
+            background: #e65c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Game Development Portfolio</h1>
+        <h3>Produced by: George Mungai</h3>
+    </header>
+    <div class="container">
+        <h2>Welcome to My Game Projects</h2>
+        <p>Here are some of my recent game development projects.</p>
+        
+        <div class="trailer">
+            <h3>Game Trailer</h3>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="game-card">
+            <h3>Football Manager Royale</h3>
+            <img src="football_manager_royale.jpg" alt="Football Manager Royale Screenshot">
+            <p>A battle royale-style football game where players compete in a shrinking stadium until one team remains!</p>
+            <a href="#" target="_blank">Download Game</a>
+            <p>Contact: mungai.george8890@gmail.com | +254719446552</p>
+        </div>
+        
+        <div class="game-card">
+            <h3>Game Title 1</h3>
+            <img src="game1.jpg" alt="Game 1 Screenshot">
+            <p>A short description of the game.</p>
+            <a href="#" target="_blank">Play Now</a>
+            <p>Contact: mungai.george8890@gmail.com | +254719446552</p>
+        </div>
+        
+        <div class="game-card">
+            <h3>Game Title 2</h3>
+            <img src="game2.jpg" alt="Game 2 Screenshot">
+            <p>A short description of the game.</p>
+            <a href="#" target="_blank">Play Now</a>
+            <p>Contact: mungai.george8890@gmail.com | +254719446552</p>
+        </div>
+        
+        <div class="newsletter">
+            <h3>Subscribe for Updates</h3>
+            <input type="email" placeholder="Enter your email" required>
+            <button>Subscribe</button>
+        </div>
+    </div>
+    <footer>
+        <p>Contact me at: mungai.george8890@gmail.com | +254719446552</p>
+        <p>CEO: George Mungai</p>
+    </footer>
+</body>
+</html>
